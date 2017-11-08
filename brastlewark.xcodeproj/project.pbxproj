@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4077144682B9399EBDF1928F /* Pods_brastlewark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1ED1132F1220C90F5D24FE /* Pods_brastlewark.framework */; };
+		687596F41FB2823F0053F346 /* GnomeDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687596F31FB2823F0053F346 /* GnomeDetailTableViewCell.swift */; };
+		68E09BEE1FB2461D00D70289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09BED1FB2461D00D70289 /* AppDelegate.swift */; };
+		68E09BF01FB2461D00D70289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09BEF1FB2461D00D70289 /* ViewController.swift */; };
+		68E09BF31FB2461D00D70289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E09BF11FB2461D00D70289 /* Main.storyboard */; };
+		68E09BF51FB2461D00D70289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E09BF41FB2461D00D70289 /* Assets.xcassets */; };
+		68E09BF81FB2461D00D70289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E09BF61FB2461D00D70289 /* LaunchScreen.storyboard */; };
+		68E09C291FB2498C00D70289 /* Instantiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C271FB2498500D70289 /* Instantiator.swift */; };
+		68E09C2A1FB2498F00D70289 /* DependencyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C281FB2498500D70289 /* DependencyProvider.swift */; };
+		68E09C2B1FB2499400D70289 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C261FB2498500D70289 /* Wireframe.swift */; };
+		68E09C2C1FB2499700D70289 /* BaseIteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C181FB2488900D70289 /* BaseIteractor.swift */; };
+		68E09C2D1FB2499900D70289 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C201FB2494300D70289 /* BaseViewController.swift */; };
+		68E09C2E1FB2499C00D70289 /* BaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C211FB2494300D70289 /* BaseContract.swift */; };
+		68E09C2F1FB2499F00D70289 /* SplashContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C231FB2495F00D70289 /* SplashContract.swift */; };
+		68E09C301FB249A200D70289 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C241FB2495F00D70289 /* SplashViewController.swift */; };
+		68E09C311FB249A400D70289 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C251FB2495F00D70289 /* SplashPresenter.swift */; };
+		68E09C361FB24AB200D70289 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C351FB24AB200D70289 /* LocalManager.swift */; };
+		68E09C3B1FB24AEE00D70289 /* ApiRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C3A1FB24AEE00D70289 /* ApiRest.swift */; };
+		68E09C3D1FB24B9D00D70289 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C3C1FB24B9D00D70289 /* Gnome.swift */; };
+		68E09C3F1FB24BDB00D70289 /* EGnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C3E1FB24BDB00D70289 /* EGnome.swift */; };
+		68E09C401FB24D3200D70289 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C341FB24A6800D70289 /* Repository.swift */; };
+		68E09C411FB24D3500D70289 /* RepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C331FB24A6700D70289 /* RepositoryImpl.swift */; };
+		68E09C431FB24D8900D70289 /* GnomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C421FB24D8900D70289 /* GnomeList.swift */; };
+		68E09C451FB24E7C00D70289 /* GnomeIteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C441FB24E7C00D70289 /* GnomeIteractor.swift */; };
+		68E09C471FB2538900D70289 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C461FB2538900D70289 /* BaseResponse.swift */; };
+		68E09C491FB253A200D70289 /* GnomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C481FB253A200D70289 /* GnomeResponse.swift */; };
+		68E09C4B1FB25C9400D70289 /* GlobalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C4A1FB25C9400D70289 /* GlobalParser.swift */; };
+		68E09C4F1FB2708E00D70289 /* GnomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C4E1FB2708E00D70289 /* GnomeListViewController.swift */; };
+		68E09C511FB270A400D70289 /* GnomeListViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C501FB270A400D70289 /* GnomeListViewContract.swift */; };
+		68E09C531FB270B300D70289 /* GnomeListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C521FB270B200D70289 /* GnomeListViewPresenter.swift */; };
+		68E09C561FB2725000D70289 /* GnomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C551FB2725000D70289 /* GnomeTableViewCell.swift */; };
+		68E09C591FB274B100D70289 /* GnomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C581FB274B100D70289 /* GnomeDetailViewController.swift */; };
+		68E09C5B1FB274BE00D70289 /* GnomeDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C5A1FB274BE00D70289 /* GnomeDetailContract.swift */; };
+		68E09C5D1FB274C900D70289 /* GnomeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E09C5C1FB274C900D70289 /* GnomeDetailPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B1ED1132F1220C90F5D24FE /* Pods_brastlewark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brastlewark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		687596F31FB2823F0053F346 /* GnomeDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailTableViewCell.swift; sourceTree = "<group>"; };
+		68E09BEA1FB2461D00D70289 /* brastlewark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brastlewark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E09BED1FB2461D00D70289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68E09BEF1FB2461D00D70289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68E09BF21FB2461D00D70289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E09BF41FB2461D00D70289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E09BF71FB2461D00D70289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68E09BF91FB2461D00D70289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E09C181FB2488900D70289 /* BaseIteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseIteractor.swift; sourceTree = "<group>"; };
+		68E09C201FB2494300D70289 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		68E09C211FB2494300D70289 /* BaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContract.swift; sourceTree = "<group>"; };
+		68E09C231FB2495F00D70289 /* SplashContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashContract.swift; sourceTree = "<group>"; };
+		68E09C241FB2495F00D70289 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		68E09C251FB2495F00D70289 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		68E09C261FB2498500D70289 /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		68E09C271FB2498500D70289 /* Instantiator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiator.swift; sourceTree = "<group>"; };
+		68E09C281FB2498500D70289 /* DependencyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyProvider.swift; sourceTree = "<group>"; };
+		68E09C331FB24A6700D70289 /* RepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryImpl.swift; sourceTree = "<group>"; };
+		68E09C341FB24A6800D70289 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		68E09C351FB24AB200D70289 /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
+		68E09C3A1FB24AEE00D70289 /* ApiRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRest.swift; sourceTree = "<group>"; };
+		68E09C3C1FB24B9D00D70289 /* Gnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
+		68E09C3E1FB24BDB00D70289 /* EGnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGnome.swift; sourceTree = "<group>"; };
+		68E09C421FB24D8900D70289 /* GnomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeList.swift; sourceTree = "<group>"; };
+		68E09C441FB24E7C00D70289 /* GnomeIteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeIteractor.swift; sourceTree = "<group>"; };
+		68E09C461FB2538900D70289 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		68E09C481FB253A200D70289 /* GnomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeResponse.swift; sourceTree = "<group>"; };
+		68E09C4A1FB25C9400D70289 /* GlobalParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalParser.swift; sourceTree = "<group>"; };
+		68E09C4E1FB2708E00D70289 /* GnomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeListViewController.swift; sourceTree = "<group>"; };
+		68E09C501FB270A400D70289 /* GnomeListViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeListViewContract.swift; sourceTree = "<group>"; };
+		68E09C521FB270B200D70289 /* GnomeListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeListViewPresenter.swift; sourceTree = "<group>"; };
+		68E09C551FB2725000D70289 /* GnomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeTableViewCell.swift; sourceTree = "<group>"; };
+		68E09C581FB274B100D70289 /* GnomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailViewController.swift; sourceTree = "<group>"; };
+		68E09C5A1FB274BE00D70289 /* GnomeDetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailContract.swift; sourceTree = "<group>"; };
+		68E09C5C1FB274C900D70289 /* GnomeDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailPresenter.swift; sourceTree = "<group>"; };
+		779186BF46E9E7D44CA60B2D /* Pods-brastlewark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brastlewark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brastlewark/Pods-brastlewark.debug.xcconfig"; sourceTree = "<group>"; };
+		7D14BCBBBD716A3A494AB5A9 /* Pods-brastlewark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brastlewark.release.xcconfig"; path = "Pods/Target Support Files/Pods-brastlewark/Pods-brastlewark.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E09BE71FB2461D00D70289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077144682B9399EBDF1928F /* Pods_brastlewark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54CAD47E655A23D9E3F919C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B1ED1132F1220C90F5D24FE /* Pods_brastlewark.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		687596F21FB2822D0053F346 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				687596F31FB2823F0053F346 /* GnomeDetailTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		68E09BE11FB2461D00D70289 = {
+			isa = PBXGroup;
+			children = (
+				68E09BEC1FB2461D00D70289 /* brastlewark */,
+				68E09BEB1FB2461D00D70289 /* Products */,
+				D6EABC0455519DB87D955E3E /* Pods */,
+				54CAD47E655A23D9E3F919C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68E09BEB1FB2461D00D70289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E09BEA1FB2461D00D70289 /* brastlewark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E09BEC1FB2461D00D70289 /* brastlewark */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C131FB2481E00D70289 /* wireframe */,
+				68E09C111FB247F400D70289 /* datamanager */,
+				68E09C341FB24A6800D70289 /* Repository.swift */,
+				68E09C331FB24A6700D70289 /* RepositoryImpl.swift */,
+				68E09C151FB2482F00D70289 /* iteractor */,
+				68E09C171FB2483D00D70289 /* ui */,
+				68E09C161FB2483800D70289 /* model */,
+				68E09C121FB2480D00D70289 /* assets */,
+				68E09BED1FB2461D00D70289 /* AppDelegate.swift */,
+				68E09BEF1FB2461D00D70289 /* ViewController.swift */,
+				68E09BF91FB2461D00D70289 /* Info.plist */,
+			);
+			path = brastlewark;
+			sourceTree = "<group>";
+		};
+		68E09C111FB247F400D70289 /* datamanager */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C391FB24AD700D70289 /* networkmanager */,
+				68E09C381FB24ACE00D70289 /* entities */,
+				68E09C371FB24AC800D70289 /* response */,
+				68E09C321FB24A4D00D70289 /* parser */,
+				68E09C1C1FB2490000D70289 /* silglentonmanager */,
+				68E09C1B1FB248F500D70289 /* localmanager */,
+			);
+			path = datamanager;
+			sourceTree = "<group>";
+		};
+		68E09C121FB2480D00D70289 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				68E09BF41FB2461D00D70289 /* Assets.xcassets */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		68E09C131FB2481E00D70289 /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C281FB2498500D70289 /* DependencyProvider.swift */,
+				68E09C271FB2498500D70289 /* Instantiator.swift */,
+				68E09C261FB2498500D70289 /* Wireframe.swift */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		68E09C151FB2482F00D70289 /* iteractor */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C181FB2488900D70289 /* BaseIteractor.swift */,
+				68E09C441FB24E7C00D70289 /* GnomeIteractor.swift */,
+			);
+			path = iteractor;
+			sourceTree = "<group>";
+		};
+		68E09C161FB2483800D70289 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C3C1FB24B9D00D70289 /* Gnome.swift */,
+				68E09C421FB24D8900D70289 /* GnomeList.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		68E09C171FB2483D00D70289 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C1D1FB2491D00D70289 /* storyboard */,
+				68E09C1E1FB2492600D70289 /* view */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		68E09C1B1FB248F500D70289 /* localmanager */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C351FB24AB200D70289 /* LocalManager.swift */,
+			);
+			path = localmanager;
+			sourceTree = "<group>";
+		};
+		68E09C1C1FB2490000D70289 /* silglentonmanager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = silglentonmanager;
+			sourceTree = "<group>";
+		};
+		68E09C1D1FB2491D00D70289 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				68E09BF11FB2461D00D70289 /* Main.storyboard */,
+				68E09BF61FB2461D00D70289 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		68E09C1E1FB2492600D70289 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C571FB2749800D70289 /* GnomeDetailView */,
+				68E09C4D1FB2707400D70289 /* GnomeListView */,
+				68E09C221FB2495F00D70289 /* SplashScreen */,
+				68E09C1F1FB2494300D70289 /* BaseView */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		68E09C1F1FB2494300D70289 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C201FB2494300D70289 /* BaseViewController.swift */,
+				68E09C211FB2494300D70289 /* BaseContract.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		68E09C221FB2495F00D70289 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C241FB2495F00D70289 /* SplashViewController.swift */,
+				68E09C231FB2495F00D70289 /* SplashContract.swift */,
+				68E09C251FB2495F00D70289 /* SplashPresenter.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		68E09C321FB24A4D00D70289 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C4A1FB25C9400D70289 /* GlobalParser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		68E09C371FB24AC800D70289 /* response */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C461FB2538900D70289 /* BaseResponse.swift */,
+				68E09C481FB253A200D70289 /* GnomeResponse.swift */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		68E09C381FB24ACE00D70289 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C3E1FB24BDB00D70289 /* EGnome.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		68E09C391FB24AD700D70289 /* networkmanager */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C3A1FB24AEE00D70289 /* ApiRest.swift */,
+			);
+			path = networkmanager;
+			sourceTree = "<group>";
+		};
+		68E09C4D1FB2707400D70289 /* GnomeListView */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C541FB2722900D70289 /* Cell */,
+				68E09C4E1FB2708E00D70289 /* GnomeListViewController.swift */,
+				68E09C501FB270A400D70289 /* GnomeListViewContract.swift */,
+				68E09C521FB270B200D70289 /* GnomeListViewPresenter.swift */,
+			);
+			path = GnomeListView;
+			sourceTree = "<group>";
+		};
+		68E09C541FB2722900D70289 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				68E09C551FB2725000D70289 /* GnomeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		68E09C571FB2749800D70289 /* GnomeDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				687596F21FB2822D0053F346 /* Cell */,
+				68E09C581FB274B100D70289 /* GnomeDetailViewController.swift */,
+				68E09C5A1FB274BE00D70289 /* GnomeDetailContract.swift */,
+				68E09C5C1FB274C900D70289 /* GnomeDetailPresenter.swift */,
+			);
+			path = GnomeDetailView;
+			sourceTree = "<group>";
+		};
+		D6EABC0455519DB87D955E3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				779186BF46E9E7D44CA60B2D /* Pods-brastlewark.debug.xcconfig */,
+				7D14BCBBBD716A3A494AB5A9 /* Pods-brastlewark.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E09BE91FB2461D00D70289 /* brastlewark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E09BFC1FB2461D00D70289 /* Build configuration list for PBXNativeTarget "brastlewark" */;
+			buildPhases = (
+				01499C6A34816157BB5FADAE /* [CP] Check Pods Manifest.lock */,
+				68E09BE61FB2461D00D70289 /* Sources */,
+				68E09BE71FB2461D00D70289 /* Frameworks */,
+				68E09BE81FB2461D00D70289 /* Resources */,
+				68E09C4C1FB260C500D70289 /* ShellScript */,
+				2EC801A51CFF81B4C11F8D89 /* [CP] Embed Pods Frameworks */,
+				37AA7E885D2F97A0647E80F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brastlewark;
+			productName = brastlewark;
+			productReference = 68E09BEA1FB2461D00D70289 /* brastlewark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E09BE21FB2461D00D70289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hugo Morelli";
+				TargetAttributes = {
+					68E09BE91FB2461D00D70289 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68E09BE51FB2461D00D70289 /* Build configuration list for PBXProject "brastlewark" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E09BE11FB2461D00D70289;
+			productRefGroup = 68E09BEB1FB2461D00D70289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E09BE91FB2461D00D70289 /* brastlewark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E09BE81FB2461D00D70289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E09BF81FB2461D00D70289 /* LaunchScreen.storyboard in Resources */,
+				68E09BF51FB2461D00D70289 /* Assets.xcassets in Resources */,
+				68E09BF31FB2461D00D70289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01499C6A34816157BB5FADAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brastlewark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC801A51CFF81B4C11F8D89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-brastlewark/Pods-brastlewark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brastlewark/Pods-brastlewark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37AA7E885D2F97A0647E80F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brastlewark/Pods-brastlewark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E09C4C1FB260C500D70289 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E09BE61FB2461D00D70289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E09C2B1FB2499400D70289 /* Wireframe.swift in Sources */,
+				68E09C3B1FB24AEE00D70289 /* ApiRest.swift in Sources */,
+				68E09C451FB24E7C00D70289 /* GnomeIteractor.swift in Sources */,
+				687596F41FB2823F0053F346 /* GnomeDetailTableViewCell.swift in Sources */,
+				68E09C5B1FB274BE00D70289 /* GnomeDetailContract.swift in Sources */,
+				68E09BF01FB2461D00D70289 /* ViewController.swift in Sources */,
+				68E09C2C1FB2499700D70289 /* BaseIteractor.swift in Sources */,
+				68E09C411FB24D3500D70289 /* RepositoryImpl.swift in Sources */,
+				68E09C3D1FB24B9D00D70289 /* Gnome.swift in Sources */,
+				68E09C591FB274B100D70289 /* GnomeDetailViewController.swift in Sources */,
+				68E09C2A1FB2498F00D70289 /* DependencyProvider.swift in Sources */,
+				68E09C311FB249A400D70289 /* SplashPresenter.swift in Sources */,
+				68E09C511FB270A400D70289 /* GnomeListViewContract.swift in Sources */,
+				68E09C431FB24D8900D70289 /* GnomeList.swift in Sources */,
+				68E09C491FB253A200D70289 /* GnomeResponse.swift in Sources */,
+				68E09C2F1FB2499F00D70289 /* SplashContract.swift in Sources */,
+				68E09BEE1FB2461D00D70289 /* AppDelegate.swift in Sources */,
+				68E09C561FB2725000D70289 /* GnomeTableViewCell.swift in Sources */,
+				68E09C2D1FB2499900D70289 /* BaseViewController.swift in Sources */,
+				68E09C2E1FB2499C00D70289 /* BaseContract.swift in Sources */,
+				68E09C401FB24D3200D70289 /* Repository.swift in Sources */,
+				68E09C4F1FB2708E00D70289 /* GnomeListViewController.swift in Sources */,
+				68E09C471FB2538900D70289 /* BaseResponse.swift in Sources */,
+				68E09C5D1FB274C900D70289 /* GnomeDetailPresenter.swift in Sources */,
+				68E09C4B1FB25C9400D70289 /* GlobalParser.swift in Sources */,
+				68E09C291FB2498C00D70289 /* Instantiator.swift in Sources */,
+				68E09C301FB249A200D70289 /* SplashViewController.swift in Sources */,
+				68E09C361FB24AB200D70289 /* LocalManager.swift in Sources */,
+				68E09C3F1FB24BDB00D70289 /* EGnome.swift in Sources */,
+				68E09C531FB270B300D70289 /* GnomeListViewPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68E09BF11FB2461D00D70289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E09BF21FB2461D00D70289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E09BF61FB2461D00D70289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E09BF71FB2461D00D70289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E09BFA1FB2461D00D70289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68E09BFB1FB2461D00D70289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E09BFD1FB2461D00D70289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779186BF46E9E7D44CA60B2D /* Pods-brastlewark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brastlewark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.brastlewark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E09BFE1FB2461D00D70289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D14BCBBBD716A3A494AB5A9 /* Pods-brastlewark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brastlewark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.brastlewark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E09BE51FB2461D00D70289 /* Build configuration list for PBXProject "brastlewark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E09BFA1FB2461D00D70289 /* Debug */,
+				68E09BFB1FB2461D00D70289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E09BFC1FB2461D00D70289 /* Build configuration list for PBXNativeTarget "brastlewark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E09BFD1FB2461D00D70289 /* Debug */,
+				68E09BFE1FB2461D00D70289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E09BE21FB2461D00D70289 /* Project object */;
+}
